@@ -12,7 +12,7 @@ body {
   }
   
   h1 {
-    color: #000000;
+    color: #ffffff;
     font-size: 24px;
     margin: 0;
   }
@@ -104,5 +104,21 @@ body {
     margin: 0;
   }
 
-  /* MEDIA Queries */
-  
+/* MEDIA QUERIES */
+/* @media media-type (media-feature) {
+ 
+} */
+/* media types
+a. all - for all screens
+b. screen - devices with screen
+C. print - works only for print preview
+d. speech - screen readers
+*/
+@media screen and (max-width: 576px) {
+    h1 {
+        color: #fffb00;
+        font-size: 25px;
+        margin: 5px;
+    }
+
+}
